@@ -143,6 +143,7 @@ table {
 	  row = parseInt(id.split("-")[0]);
 	  column = parseInt(id.split("-")[1]);
 	  toggleFooter();
+	  $(this).unbind("click");
 	});
 
 	function toggleFooter() {
