@@ -1,0 +1,29 @@
+{
+  "name": "oc",
+  "version": "1.0.0",
+  "description": "order and chaos",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlopez807/oc.git"
+  },
+  "author": "daniel lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlopez807/oc/issues"
+  },
+  "homepage": "https://github.com/dlopez807/oc#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-useref": "^3.1.0",
+    "run-sequence": "^1.2.0"
+  }
+}
